@@ -17,6 +17,6 @@ public class Boot : MonoBehaviour {
 	void Update () {
         memo.Log(audio_object.transform.localPosition);
 
-		audio_object.GetComponent<AudioSource>().pitch -= 0.0001f;
+//		audio_object.GetComponent<AudioSource>().pitch -= 0.0001f;
 	}
 }
